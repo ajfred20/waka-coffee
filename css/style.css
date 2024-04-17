@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    background-color: #ffebcd;
+    color: #330;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right; 
+  }
+  
+  li {
+    padding: 15px;
+    color: #000;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-items li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-items li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease; 
+  }
+  
+  .nav-items li a:hover {
+    color: #fff; 
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffebcd;
+    color: #330;
+    font-size: 15px;
+  }
+  
+  .hero-img1 {
+    width: 450px;
+    height: auto;
+    order: 2; 
+  }
+  
+  .hero-text1 {
+    position: relative;
+    order: 1; 
+  }
+  
+  .hero2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #ffebcd;
+    color: #330;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .hero-img2 {
+    width: 500px;
+    height: auto;
+    order: 1; 
+  }
+  
+  .hero-text2 {
+    order: 2; 
+  }
+
+ .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffebcd;
+    color: #330;
+    font-size: 15px;
+ }
+
+ .about-us-img {
+    width: 500px;
+    height: auto;
+    order: 1; 
+  }
+
+  .about-us2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffebcd;
+    color: #330;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .about-us-img2 {
+    width: 500px;
+    height: auto;
+    order: 1; 
+  }
